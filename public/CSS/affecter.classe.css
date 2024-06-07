@@ -1,0 +1,17 @@
+.name1{
+    margin: -10px 0px 10px;
+}
+.name1 p{
+    font-size: 15px;
+    color: rgb(4, 0, 128);
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.name1 span{
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}

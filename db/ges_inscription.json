@@ -1,0 +1,314 @@
+{
+    "demandes": [
+        {
+            "id": 1,
+            "date": "12\/01\/2023",
+            "Etat": "Encours",
+            "type": "Annulation",
+            "Motif": "Cool",
+            "etudiant_id": 1,
+            "annee_id": 1
+        },
+        {
+            "id": 2,
+            "date": "06\/04\/2023",
+            "Etat": "Refuser",
+            "type": "Suspension",
+            "Motif": "Avoir des connaissance",
+            "etudiant_id": 1,
+            "annee_id": 1
+        },
+        {
+            "id": 3,
+            "date": "30\/11\/2022",
+            "Etat": "Accepter",
+            "type": "Annulation",
+            "Motif": "uuuh",
+            "etudiant_id": 1,
+            "annee_id": 2
+        },
+        {
+            "id": 4,
+            "date": "30\/11\/2023",
+            "Etat": "Accepter",
+            "type": "Annulation",
+            "Motif": "Etude",
+            "etudiant_id": 2,
+            "annee_id": 1
+        },
+        {
+            "id": 5,
+            "date": "30\/11\/2022",
+            "Etat": "Refuser",
+            "type": "Annulation",
+            "Motif": "S'instruir",
+            "etudiant_id": 3,
+            "annee_id": 2
+        },
+        {
+            "id": 6,
+            "date": "17\/10\/2023",
+            "Etat": "Encours",
+            "type": "Suspension",
+            "Motif": "bien",
+            "etudiant_id": 3,
+            "annee_id": 1
+        },
+        {
+            "id": 7,
+            "date": "03\/01\/2024",
+            "Etat": "Encours",
+            "type": "Annulation",
+            "Motif": "test yh",
+            "etudiant_id": 3,
+            "annee_id": 1
+        },
+        {
+            "id": 8,
+            "date": "03\/01\/2024",
+            "Etat": "Encours",
+            "type": "Annulation",
+            "Motif": "test uhh",
+            "etudiant_id": 2,
+            "annee_id": 1
+        },
+        {
+            "id": 9,
+            "date": "04\/01\/2024",
+            "Etat": "Encours",
+            "type": "Annulation",
+            "Motif": "superfly",
+            "etudiant_id": 3,
+            "annee_id": 1
+        },
+        {
+            "id": 10,
+            "date": "04\/01\/2024",
+            "Etat": "Encours",
+            "type": "Suspension",
+            "Motif": "test",
+            "etudiant_id": 1,
+            "annee_id": 1
+        },
+        {
+            "id": 11,
+            "date": "04\/01\/2024",
+            "Etat": "Encours",
+            "type": "Annulation",
+            "Motif": "test",
+            "etudiant_id": 2,
+            "annee_id": 1
+        },
+        {
+            "id": 12,
+            "date": "04\/01\/2024",
+            "Etat": "Encours",
+            "type": "Annulation",
+            "Motif": "vrai",
+            "etudiant_id": 3,
+            "annee_id": 1
+        },
+        {
+            "id": 13,
+            "date": "04\/01\/2024",
+            "Etat": "Encours",
+            "type": "Annulation",
+            "Motif": "hh",
+            "etudiant_id": 1,
+            "annee_id": 1
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "matricule": "MAT001",
+            "nom": "Ndiaye",
+            "prenom": "Assane",
+            "login": "assane@gmail.com",
+            "password": "passer123",
+            "role": "ROLE_ETUDIANT",
+            "classe_id": 1
+        },
+        {
+            "id": 2,
+            "matricule": "MAT002",
+            "nom": "Diop",
+            "prenom": "Modou",
+            "login": "modou@gmail.com",
+            "password": "passer123",
+            "role": "ROLE_ETUDIANT",
+            "classe_id": 1
+        },
+        {
+            "id": 3,
+            "matricule": "MAT003",
+            "nom": "JR",
+            "prenom": "Vini",
+            "login": "vini@gmail.com",
+            "password": "passer123",
+            "role": "ROLE_ETUDIANT",
+            "classe_id": 2
+        },
+        {
+            "id": 4,
+            "matricule": "",
+            "nom": "AC",
+            "prenom": "AC",
+            "login": "ac@gmail.com",
+            "password": "passer123",
+            "role": "ROLE_AC",
+            "classe_id": ""
+        },
+        {
+            "id": 5,
+            "matricule": "",
+            "nom": "RP",
+            "prenom": "RP",
+            "login": "rp@gmail.com",
+            "password": "passer123",
+            "role": "ROLE_RP",
+            "classe_id": ""
+        }
+    ],
+    "profs": [
+        {
+            "id": 1,
+            "nom": "prof",
+            "prenom": "prof",
+            "grade": "ingenieur",
+            "module": [
+                "PHP",
+                "Python",
+                "UML"
+            ],
+            "classe_id": [
+                1,
+                2,
+                3,
+                5
+            ]
+        },
+        {
+            "id": 2,
+            "nom": "Ndiaye",
+            "prenom": "Assane",
+            "grade": "Docteur",
+            "module": [
+                "Algo",
+                "UML"
+            ],
+            "classe_id": [
+                1,
+                3,
+                4
+            ]
+        },
+        {
+            "id": 3,
+            "nom": "wane",
+            "prenom": "baila",
+            "grade": "Ingenieur",
+            "module": [
+                "PHP",
+                "Algo",
+                "UML"
+            ],
+            "classe_id": [
+                1,
+                3,
+                5
+            ]
+        },
+        {
+            "id": 4,
+            "nom": "Tall",
+            "prenom": "Aly",
+            "grade": "Ingenieur",
+            "module": [
+                "Python",
+                "Algo"
+            ],
+            "classe_id": [
+                3,
+                1
+            ]
+        },
+        {
+            "id": 5,
+            "nom": "Ba ",
+            "prenom": "Sekou",
+            "grade": "Profeseur",
+            "module": [
+                "Algo",
+                "UML"
+            ],
+            "classe_id": [
+                3
+            ]
+        },
+        {
+            "id": 6,
+            "nom": "ygfyf",
+            "prenom": "ywyy",
+            "grade": "Ingenieur",
+            "module": [
+                "PHP",
+                "Algo"
+            ],
+            "classe_id": [
+                1,
+                2
+            ]
+        }
+    ],
+    "annees": [
+        {
+            "id": 1,
+            "nom": "2023-2024",
+            "etat": 1
+        },
+        {
+            "id": 2,
+            "nom": "2022-2023",
+            "etat": 0
+        }
+    ],
+    "classes": [
+        {
+            "id": 1,
+            "filiere": "GLRS",
+            "niveau": "Licence2",
+            "libele": "L2 GLRS A"
+        },
+        {
+            "id": 2,
+            "filiere": "CDSD",
+            "niveau": "Licence2",
+            "libele": "L2 CDSD"
+        },
+        {
+            "id": 3,
+            "filiere": "GLRS",
+            "niveau": "Licence1",
+            "libele": "L1C"
+        },
+        {
+            "id": 4,
+            "filiere": "IAGE",
+            "niveau": "Licence3",
+            "libele": "L3 IAGE"
+        },
+        {
+            "id": 5,
+            "filiere": "IAGE",
+            "niveau": "Master1",
+            "libele": "MBAIAGE"
+        },
+        {
+            "id": 6,
+            "filiere": "GLRS",
+            "niveau": "Licence1",
+            "libele": "FFFF"
+        }
+    ]
+}

@@ -1,0 +1,218 @@
+body{
+  height: 100vh;
+  background: rgb(240, 239, 255);
+  margin: 0;
+}
+.header{
+  position: relative;
+  width: 100%;
+  height: 80px;
+  background: rgb(4, 0, 128);
+  margin: 0;
+}
+.titre{
+  position: absolute;
+  transform: translateY(-25%);
+  color: rgb(240, 239, 255);
+  left: 50px;
+}
+.pp img{
+  height: 100%;
+  position: absolute;
+  transform: translateY(-5%);
+  right: 10%;
+}
+.user{
+  color: rgb(240, 239, 255);
+  position: absolute;
+  transform: translateY(-5%);
+  right: 6%;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.entete{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.entete h1{
+  font-size: 25px;
+  color: rgb(4, 0, 128);
+  text-decoration: underline;
+}
+.entete p{
+  font-size: 17px;
+  color: black;
+  padding: 10px;
+  margin-top: 27px;
+}
+.container{
+  max-width:1440px;
+  width: 90%;
+  background: white;
+  box-shadow: 2px 5px 50px rgb(4, 0, 128);
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-left: 5%;
+}
+.container h2{
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(4, 0, 128);
+  text-decoration: underline;
+}
+.tab{
+  width: 98%;
+  border-collapse: collapse;
+  padding: 20px;
+}
+.tab thead{
+  background: rgb(4, 0, 128);
+  color: rgb(240, 239, 255);
+}
+.tab thead tr th{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  border: 1px solid rgb(240, 239, 255);
+  padding: 10px;
+}
+.tab tbody tr td{
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid rgb(4, 0, 128);
+  padding: 10px;
+}
+.tab tr:nth-child(even){
+  background: rgb(240, 239, 255);
+  color: rgb(4, 0, 128);
+}
+.tab a{
+  text-decoration: none;
+}
+.tab a:hover{
+  text-decoration: underline;
+  color: red;
+}
+.tab tr:nth-child(even) a{
+  color: rgb(4, 0, 128);
+}
+.tab tr:nth-child(even) a:hover{
+  color: red;
+}
+.filtre label{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  margin-left: 50px;
+  color: rgb(4, 0, 128);
+}
+.filtre{
+  padding: 10px;
+}
+.filtre select{
+  background: rgb(240, 239, 255);
+  color: rgb(4, 0, 128);
+  cursor: pointer;
+  width: 10%;
+  padding: 2px;
+  border: 1px solid rgb(4, 0, 128);
+}
+.filtre select:focus{
+  outline: none;
+  border-color: rgb(4, 0, 128);
+  box-shadow: 2px 5px 10px rgb(4, 0, 128);
+}
+.filtre button{
+  color: rgb(240, 239, 255);
+  background: rgb(4, 0, 128);
+  border: 1px solid rgb(4, 0, 128);
+  padding: 2px;
+  width: 50px;
+}
+.filtre button:hover{
+  color: rgb(240, 239, 255);
+  background: rgb(4, 0, 128);
+  border: 1px solid rgb(4, 0, 128);
+}
+.new{
+  margin: 25px;
+  position: relative;
+}
+.new label{
+  color: rgb(4, 0, 128);
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  right: 12%;
+}
+.new button{
+  color: rgb(240, 239, 255);
+  background: rgb(4, 0, 128);
+  border: 1px solid rgb(4, 0, 128);
+  padding: px;
+  position: absolute;
+  right: 6%;
+  cursor: pointer;
+}
+.new button:hover{
+  color: rgb(240, 239, 255);
+  background: rgb(4, 0, 128);
+}
+.pagination{
+  padding: 10px;
+  margin-left: 43%;
+}
+.pagination button:first-child{
+  font-size: 10px;
+  background: rgb(4, 0, 128);
+  color: rgb(240, 239, 255);
+  cursor: pointer;
+  border: rgb(4, 0, 128);
+  padding: 5px;
+}
+.pagination button:last-child{
+  font-size: 11px;
+  background: rgb(4, 0, 128);
+  color: rgb(240, 239, 255);
+  cursor: pointer;
+  border: rgb(4, 0, 128);
+  padding: 5px;
+}
+.pagination button:nth-child(n+2):nth-child(-n+4){
+  width: 20px;
+  height: 20px;
+  background: rgb(4, 0, 128);
+  color: rgb(240, 239, 255);
+  cursor: pointer;
+  border: rgb(4, 0, 128);
+  padding: 5px 5px;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+.logout{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  cursor: pointer;
+  color: rgb(4, 0, 128);
+}
+.logout i{
+  float: left;
+  margin-top: -7px;
+}
+.logout h4{
+  text-decoration: solid;
+}
+.prof{
+  position: absolute;
+  transform: translateY(50%);
+  color: rgb(240, 239, 255);
+  left: 450px;
+}
+.class{
+  position: absolute;
+  transform: translateY(50%);
+  color: rgb(240, 239, 255);
+  left: 300px;
+}

@@ -1,0 +1,86 @@
+.profil{
+    position: relative;
+    width: 30%;
+    height: 30%;
+    background: white;
+    margin: 20px;
+    box-shadow: 2px 5px 10px rgb(4, 0, 128);
+  }
+  .profil img{
+    height: 100%;
+  }
+  .user1{
+    color: rgb(4, 0, 128);
+    position: absolute;
+    transform: translateY(-700%);
+    right: 20%;
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  .profil h5{
+    margin-left: 200px;
+    transform: translateY(-700%);
+    color: rgb(4, 0, 128);
+  }
+  .cara {
+    margin: 20px;
+    color: rgb(4, 0, 128);
+  }
+  .cara p{
+    font-weight: bold;
+  }
+  .champs{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+    background: rgb(4, 0, 128);
+    margin-left: 40%;
+    margin-top: -26%;
+  }
+  .champs h1{
+    color: rgb(240, 239, 255);
+    text-decoration: underline;
+  }
+  .champs div{
+    background: rgb(240, 239, 255);
+    width: 90%;
+    height: 70%;
+    margin-top: 100px;
+    float: left;
+    margin-left: -77px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgb(240, 239, 255);
+  }
+  .champs div p{
+    color: rgb(4, 0, 128);
+  }
+  .send1{
+    display: flex;
+    padding: 5px;
+    margin-top: -15%;
+  }
+  .send1 button:first-child{
+    color: rgb(240, 239, 255);
+    background: red;
+    border: 1px solid rgb(4, 0, 128);
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .send1 button:last-child{
+    color: rgb(240, 239, 255);
+    background: green;
+    border: 1px solid rgb(4, 0, 128);
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .send1 button:first-child:hover{
+    color: rgb(240, 239, 255);
+    background: red;
+    box-shadow: 2px 5px 10px red;
+  }
+  .send1 button:last-child:hover{
+    color: rgb(240, 239, 255);
+    background: green;
+    box-shadow: 2px 5px 10px green;
+  }
